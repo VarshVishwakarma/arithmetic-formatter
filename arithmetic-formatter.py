@@ -43,3 +43,6 @@ def arithmetic_arranger(problems, val=False):
         arranged += "\n" + "    ".join(solutions)
 
     return arranged
+f __name__ == "__main__":
+    problems = ["32 + 698", "3801 - 2", "45 + 43", "123 + 49"]
+    print(arithmetic_arranger(problems, True))
